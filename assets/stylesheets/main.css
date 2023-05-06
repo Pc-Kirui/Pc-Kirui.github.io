@@ -46,3 +46,116 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+Custom Styles
+*/
+
+body {
+	color: #888;
+	font: 300 16px/22px "Lato" "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1 {
+	color: #648880;
+	font-size: 36px;
+	line-height: 44px;
+}
+
+/*
+Grid
+*/
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.container {
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+}
+/*
+Typography
+*/
+h1 {
+	margin-bottom: 22px;
+}
+
+/*
+Buttons
+*/
+.btn li {
+	display: inline-block;
+	margin: 0;
+}
+
+/*
+Clearfix
+*/
+.group ::before,
+.group ::after {
+	content: "";
+	display: table;
+}
+.group ::after {
+	clear: both;
+}
+.group {
+	clear: both;
+	zoom: 1;
+}
+
+/*
+Primary Header
+*/
+.logo {
+	border-top: 4px solid #648880;
+	font-size: 48px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	line-height: 44px;
+	padding: 40px 0 22px 0;
+	float: left;
+	text-transform: uppercase;
+}
+.primary-nav {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+
+/*
+Primary Footer
+*/
+.primary-footer small {
+	float: left;
+	font-weight: 400;
+}
+.primary-footer {
+	color: #648880;
+	font-size: 14px;
+	padding-bottom: 44px;
+	padding-top: 44px;
+}
+
+/*
+Links
+*/
+a:hover {
+	color: #a9b2b9;
+}
+a {
+	color: #648880;
+	text-decoration: none;
+}
+
+/*
+Navigation
+*/
+.nav {
+	text-align: right;
+}
