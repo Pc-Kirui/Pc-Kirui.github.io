@@ -52,6 +52,7 @@ Custom Styles
 */
 
 body {
+	background: #293f50;
 	color: #888;
 	font: 300 16px/22px "Lato" "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -71,6 +72,29 @@ Grid
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+.col-1-3 {
+	width: 33.33%;
+}
+.col-2-3 {
+	width: 66.66%;
+}
+.col-1-3,
+.col-2-3 {
+	display: inline-block;
+	vertical-align: top;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container,
+.grid {
+	margin: 0 auto;
+	width: 960px;
+}
 .container {
 	margin: 0 auto;
 	padding-left: 30px;
@@ -80,14 +104,21 @@ Grid
 /*
 Typography
 */
-h1 {
+
+h1, h3, h4, h5, p {
 	margin-bottom: 22px;
+}
+.hero {
+	margin: 22px 80px 66px 80px;
 }
 
 /*
 Buttons
 */
-.btn li {
+.btn {
+	letter-spacing: .5px;
+	font-weight: 400;
+	cursor: pointer;
 	display: inline-block;
 	margin: 0;
 }
@@ -95,8 +126,8 @@ Buttons
 /*
 Clearfix
 */
-.group ::before,
-.group ::after {
+.group:before,
+.group:after {
 	content: "";
 	display: table;
 }
@@ -152,10 +183,26 @@ a {
 	color: #648880;
 	text-decoration: none;
 }
+.primary-header a,
+.primary-footer a{
+	color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+	color: #648880;
+}
 
 /*
 Navigation
 */
 .nav {
 	text-align: right;
+}
+.nav li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+.nav li:last-child {
+	margin-right: 0;
 }
