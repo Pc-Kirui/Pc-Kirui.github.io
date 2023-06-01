@@ -56,12 +56,29 @@ body {
 	color: #888;
 	font: 300 16px/22px "Lato" "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-h1 {
+h1, h2, h3, h4 {
 	color: #648880;
+}
+h1 {
 	font-size: 36px;
 	line-height: 44px;
 }
-
+h2{
+	font-size: 24px;
+	line-height: 44px;
+}
+h3 {
+	font-size: 21px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
 /*
 Grid
 */
@@ -109,9 +126,17 @@ h1, h3, h4, h5, p {
 	margin-bottom: 22px;
 }
 .hero {
-	margin: 22px 80px 66px 80px;
+	line-height: 44px;
+	padding: 22px 80px 66px 80px;
+	text-align: center;
 }
-
+.hero h2 {
+	font-size: 36px;
+}
+.hero p {
+	font-size: 24px;
+	font-weight: 100;
+}
 /*
 Buttons
 */
@@ -183,6 +208,9 @@ a {
 	color: #648880;
 	text-decoration: none;
 }
+p a {
+	border-bottom: 1px solid #dfe2e5;
+}
 .primary-header a,
 .primary-footer a{
 	color: #fff;
@@ -190,6 +218,9 @@ a {
 .primary-header a:hover,
 .primary-footer a:hover {
 	color: #648880;
+}
+.teaser a:hover h3 {
+	color: #a9b2b9;
 }
 
 /*
@@ -205,4 +236,14 @@ Navigation
 }
 .nav li:last-child {
 	margin-right: 0;
+}
+.tagline {
+	margin: 66px 0 22px 0;
+	text-align: right;
+}
+strong {
+	font-weight: 400;
+}
+cite em {
+	font-style: italic;
 }
