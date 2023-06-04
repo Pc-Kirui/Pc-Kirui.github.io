@@ -79,6 +79,13 @@ h5 {
 	font-weight: 400;
 	text-transform: uppercase;
 }
+strong {
+	font-weight: 400;
+}
+cite, em {
+	font-style: italic;
+}
+
 /*
 Grid
 */
@@ -141,7 +148,7 @@ h1, h3, h4, h5, p {
 /*
 Buttons
 */
-/* .btn {
+.btn {
 	color: #fff;
 	letter-spacing: .5px;
 	font-weight: 400;
@@ -149,7 +156,7 @@ Buttons
 	display: inline-block;
 	margin: 0;
 	text-transform: uppercase;
- } */
+ }
 
 /*
 Clearfix
@@ -159,7 +166,7 @@ Clearfix
 	content: "";
 	display: table;
 }
-.group ::after {
+.group:after {
 	clear: both;
 }
 .group {
@@ -263,12 +270,7 @@ Navigation
 	margin: 66px 0 22px 0;
 	text-align: right;
 }
-strong {
-	font-weight: 400;
-}
-cite, em {
-	font-style: italic;
-}
+
  /*
  Leads
  */
@@ -278,4 +280,51 @@ cite, em {
  .lead p {
 	font-size: 21px;
 	line-height: 33px;
+ }
+ .teaser img {
+	border-radius: 5px;
+	display: block;
+	margin-bottom: 22px;
+	max-width: 100%;
+ }
+ .teaser p a {
+	color: #00e5e8;
+ }
+ /*
+ Contacts
+ */
+ form {
+	margin-bottom: 22px;
+ }
+ input,
+ textarea {
+	font: 300 16/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ .contact-group label {
+	color: #648880;
+	cursor: pointer;
+	font-weight: 400;
+ }
+ .contact-group input,
+ .contact-group textarea {
+	width: 100%;
+	border: 1px solid #c6c9cc;
+	border-radius: 5px;
+	color: #888;
+	display: block;
+	margin: 5px 0 27px 0;
+	padding: 5px 8px;
+ }
+ .contact-group textarea {
+	height: 96px;
+ }
+ .btn-default {
+	border: 0;
+	background: #648880;
+	padding: 11px 30px;
+	font-size: 14px;
+	border-radius: 5px;
+ }
+ .btn-default:hover {
+	color: #77a198;
  }
