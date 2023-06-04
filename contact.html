@@ -9,9 +9,11 @@
 </head>
 <body>
     <header class="primary-header container group">
-        <h1 class="logo">
-            <a href="index.html">Pc <br> Kirui</a>
-        </h1>
+        <section class="container">
+            <h1 class="logo">
+                <a href="index.html">Pc <br> Kirui</a>
+            </h1>
+        </section>
         <h3 class="tagline">Portfolio</h3>
         <nav class="nav primary-nav">
             <ul>
@@ -26,7 +28,39 @@
     <section class="row-alt">
         <div class="lead container">
             <h1>Contacts</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam provident ab explicabo, nemo placeat similique quas totam eum. Libero modi a omnis magni itaque vel commodi odit illum, atque suscipit.</p>
+            <p>If you are interested in collaborating with me, please reach out using any of the contact methods provided below. Alternatively, don't hesitate to simply say hello, as i appreciate that as well.</p>
+        </div>
+    </section>
+
+    <section class="row">
+        <div class="grid">
+            <section class="col-2-3">
+                <h2>Contact Me Directly</h2>
+                <h5>Patrick Cheruiyot Kirui</h5>
+                <!-- <ul>
+                    <li><a href="https://mail.google.com/mail/u/0/#inbox"><ion-icon name="mail-outline"></ion-icon></a></li>
+                    <li><a href="https://twitter.com/PcKirui"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="https://twitter.com/home"></a></li>
+                </ul> -->
+                <p>Contact me using the form to the right.</p>
+            </section><!--
+            --><form action="patokirui@gmail.com" method="post" class="col-1-3">
+                <fieldset class="contact-group">
+                    <label>
+                        Name
+                        <input type="text" name="name" placeholder="Full name" required>
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" placeholder="Email address" required>
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="Message"></textarea>
+                    </label>
+                </fieldset>
+                <input class="btn btn-default" type="submit" name="submit" value="Send Message">
+            </form>
         </div>
     </section>
 
@@ -42,6 +76,7 @@
             </ul>
         </nav>
     </footer>
-</body>
+    <!-- <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> -->
 </body>
 </html>
