@@ -328,3 +328,26 @@ Navigation
  .btn-default:hover {
 	color: #77a198;
  }
+ /*
+ About
+ */
+ .about-me img {
+	border-radius: 50%;
+	height: 130px;
+	margin: -66px 0 22px 0;
+	vertical-align: top;
+ }
+ .about-me {
+	border: 1px solid #dfe2e5;
+	border-radius: 5px;
+	margin-top: 88px;
+	padding-bottom: 22px;
+	text-align: center;
+ }
+ .about {
+	margin-bottom: 44px;
+ }
+ .about ul {
+	list-style: none;
+	padding-bottom: 22px;
+ }
