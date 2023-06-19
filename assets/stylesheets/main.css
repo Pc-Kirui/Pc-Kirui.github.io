@@ -290,6 +290,9 @@ Navigation
  .teaser p a {
 	color: #00e5e8;
  }
+ .teaser p {
+	text-align: justify;
+ }
  /*
  Contacts
  */
@@ -350,4 +353,17 @@ Navigation
  .about ul {
 	list-style: none;
 	padding-bottom: 22px;
+ }
+ .about p {
+	text-align: justify;
+ }
+ /*
+ My Work
+ */
+ .my-work {
+	display: flex;
+	justify-content: space-evenly;
+ }
+ .my-work img {
+	height: 300px;
  }
