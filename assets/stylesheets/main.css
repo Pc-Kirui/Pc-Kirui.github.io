@@ -357,13 +357,20 @@ Navigation
  .about p {
 	text-align: justify;
  }
- /*
- My Work
- */
- .my-work {
-	display: flex;
-	justify-content: space-evenly;
+ .btn-cv {
+	background: #293f50;
+	padding: 11px 30px;
+	font-size: 14px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0;
+	border: 0;
+	display: inline-block;
+	cursor: pointer;
  }
- .my-work img {
-	height: 300px;
+ .btn-cv:hover {
+	color: #77a198;
  }
