@@ -27,33 +27,42 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Sonsie+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="main-content">
     <header class="section sec1 header active" id="home">
       <div class="header-content">
-        <div>
-          <div>pc kirui</div>
+        <div class="left-header">
+          <div class="logo inner">
+            <div class="inner1 inner">
+              <div class="inner2 inner">
+                <p class="logo-text">pc</p>
+              </div>
+            </div>
+          </div>
           <p>
-            <span>Engineering/Web Designer/Diving/Martial arts/Family</span>
+            <span>Engineering/Web Design/Diving/Martial arts/Family</span>
           </p>
         </div>
-        <div>
-          <h1>Hello 👋</h1>
-          <p>I'm <span>Patrick Cheruiyot Kirui</span></p>
-        </div>
-        <!-- <div class="left-header">
-          <div class="h-shape"></div>
-          <div class="image">
-            <img src="assets/images/background.jpg" alt="backround image" /
-            height="200px">
-          </div>
-        </div>
         <div class="right-header">
-          <h1 class="name">
-            Hello, I'm <span>Patrick C Kirui</span>A graduate Electrical
-            Engineer|Web Designer
-          </h1>
-        </div> -->
+          <h1>Hello 👋</h1>
+          <p>
+            I'm <span>Patrick Cheruiyot Kirui,</span> a Graduate Electrical
+            Engineer, and currently working on my Web Development skills. If you
+            have a project or creative need that I can help with, lets talk.
+          </p>
+        </div>
+        <div class="contact-me">
+          <a href="#contact" class="main-btn">
+            <span class="btn-text">Work with me</span>
+            <span class="btn-icon"><i class="fas fa-download"></i></span>
+          </a>
+        </div>
       </div>
     </header>
 
@@ -157,7 +166,7 @@
             <div class="hover-item">
               <h3>Project source</h3>
               <div class="icons">
-                <a href="#" target="_blank" class="icon"
+                <a href="https://github.com/Pc-Kirui/etchAsketch.git" target="_blank" class="icon"
                   ><i class="fab fa-github-square"></i>
                 </a>
                 <a href="#" target="_blank" class="icon">
@@ -171,12 +180,12 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img src="assets/images/etchASketch.png" alt="Port1.png" />
+              <img src="assets/images/landingPage.png" alt="Port2.png" />
             </div>
             <div class="hover-item">
               <h3>Project source</h3>
               <div class="icons">
-                <a href="#" target="_blank" class="icon"
+                <a href="https://github.com/Pc-Kirui/landing_page.git" target="_blank" class="icon"
                   ><i class="fab fa-github-square"></i>
                 </a>
                 <a href="#" target="_blank" class="icon">
@@ -190,12 +199,12 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img src="assets/images/rockPaperScissors.jpg" alt="Port1.png" />
+              <img src="assets/images/rockPaperScissors.jpg" alt="Port3.png" />
             </div>
             <div class="hover-item">
               <h3>Project source</h3>
               <div class="icons">
-                <a href="#" target="_blank" class="icon"
+                <a href="https://github.com/Pc-Kirui/frontend-Javascript.git" target="_blank" class="icon"
                   ><i class="fab fa-github-square"></i>
                 </a>
                 <a href="#" target="_blank" class="icon">
@@ -209,12 +218,12 @@
           </div>
           <div class="portfolio-item">
             <div class="image">
-              <img src="assets/images/etchASketch.png" alt="Port1.png" />
+              <img src="assets/images/tributePage.png" />
             </div>
             <div class="hover-item">
               <h3>Project source</h3>
               <div class="icons">
-                <a href="#" target="_blank" class="icon"
+                <a href="https://github.com/Pc-Kirui/tribute-page.git" target="_blank" class="icon"
                   ><i class="fab fa-github-square"></i>
                 </a>
                 <a href="#" target="_blank" class="icon">
@@ -282,16 +291,16 @@
               </div>
               <div class="contact-icons">
                 <div class="contact-icon">
-                  <a href="#" target="_blank">
+                  <a href="https://github.com/Pc-Kirui/Pc-Kirui" target="_blank">
                     <i class="fab fa-github-square"></i>
                   </a>
-                  <a href="#" target="_blank">
+                  <a href="https://www.linkedin.com/in/patrick-kirui-a91335214/" target="_blank">
                     <i class="fab fa-linkedin"></i>
                   </a>
-                  <a href="#" target="_blank">
+                  <a href="https://twitter.com/PcKirui" target="_blank">
                     <i class="fa-brands fa-square-x-twitter"></i>
                   </a>
-                  <a href="#" target="_blank">
+                  <a href="https://www.freecodecamp.org/pckirui" target="_blank">
                     <i class="fa-brands fa-free-code-camp"></i>
                   </a>
                 </div>
@@ -332,16 +341,17 @@
 
     <div class="controls">
       <div class="control control-1 active-btn" data-id="home">
-        <i class="fas fa-home"></i>
+        <i class="fas fa-home"><span>home</span></i>
+        
       </div>
       <div class="control control-2" data-id="about">
-        <i class="fas fa-user"></i>
+        <i class="fas fa-user"><span>about</span></i>
       </div>
       <div class="control control-3" data-id="portfolio">
-        <i class="fas fa-briefcase"></i>
+        <i class="fas fa-briefcase"><span>portfolio</span></i>
       </div>
       <div class="control control-4" data-id="contact">
-        <i class="fas fa-envelope-open"></i>
+        <i class="fas fa-envelope-open"><span>contact</span></i>
       </div>
     </div>
 
